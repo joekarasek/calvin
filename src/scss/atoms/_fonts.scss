@@ -5,13 +5,13 @@
 ----------------------------------------------------------------- */
 
 body {
-  font-family: $ff-carme;
+  font-family: $ff-open;
   color: $c-black;
   line-height: 1;
 }
 
 p {
-  font-family: $ff-carme;
+  font-family: $ff-open;
   margin-bottom: $spacing-sm;
   font-size: 16px;
 }
@@ -28,7 +28,7 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: $ff-carme;
+  font-family: $ff-open;
   font-weight: 400;
 }
 
@@ -86,7 +86,7 @@ h1 {
 
 .h2,
 h2 {
-  font-family: $ff-raleway;
+  font-style: italic;
   font-weight: 900;
 
   @include h2();

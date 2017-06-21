@@ -51,37 +51,42 @@
     //}
 
     .slide__copy {
-      color: #fff;
-      font-family: $ff-raleway;
-      margin-top: 5px;
-      margin-bottom: 15px;
+      color: #1E5879;
+      font-style: italic;
+      padding-top: 40px;
       line-height: 1;
       font-weight: 600;
 
-      @include font-size(28px, 26px, 24px, 24px, 24px);
+      @include font-size(36px, 32px, 28px, 26px, 24px);
     }
   }
 
   .slide2 {
     .slide__title {
-      font-family: $ff-dancing;
-      color: #2c2340;
+      color: #f05423;
+      font-weight: 700;
       margin-bottom: 0;
+      line-height: 1;
 
-      @include font-size(52px, 45px);
+      &:first-line {
+        color: #1D5575;
+        font-weight: 900;
+      }
+
+      @include font-size(66px, 56px);
     }
 
     .stars {
-      padding-top: 10px;
-      padding-bottom: 20px;
+      padding-top: 20px;
+      padding-bottom: 25px;
     }
 
     .copy {
-      font-family: $ff-carme;
-      color: #fff;
-      font-weight: 700;
-      line-height: 1.2;
+      color: #332A46;
+      font-weight: 400;
       margin-bottom: 25px;
+      padding-right: 45px;
+      line-height: 1.4;
 
       @include font-size(20px, 18px, 18px, 20px, 19px);
     }
@@ -89,30 +94,29 @@
 
   .slide3 {
     .title--no-insure {
-      color: #016e92;
+      color: #1D5575;
       margin-bottom: 5px;
       line-height: 1;
-      font-weight: 700;
 
-      @include font-size(77px, 66px, 35px);
+      @include font-size(83px, 75px, 35px);
     }
 
     .title--sub {
-      color: #2c2340;
+      color: #F05423;
+      font-weight: 700;
+      font-style: italic;
       line-height: 1;
-      margin-bottom: 40px;
+      margin-bottom: 10px;
 
-      @include font-size(66px, 55px, 35px);
+      @include font-size(43px, 35px, 35px);
     }
 
     .preventative-copy {
-      font-family: $ff-raleway;
-      font-weight: 600;
-      color: #fff;
+      color: #303030;
       line-height: 1;
       padding-top: 10px;
 
-      @include font-size(28px, 24px);
+      @include font-size(38px, 32px);
     }
 
     .btn {
