@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="569px" height="195px" viewBox="0 0 569 195" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Text Layer</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Calvin-Website" transform="translate(-71.000000, -179.000000)">
+            <g id="Slide1" transform="translate(0.000000, 93.000000)">
+                <g id="Text-Layer" transform="translate(68.000000, 69.000000)">
+                    <text id="Discover-State-of-th" font-family="OpenSans-Italic, Open Sans" font-size="58.14" font-style="italic" font-weight="normal" letter-spacing="-1.70999995" fill="#1D5878">
+                        <tspan x="2" y="62">Discover State of the Ar</tspan>
+                        <tspan x="551.529542" y="62">t</tspan>
+                    </text>
+                    <text id="LONDONDERRY" font-family="OpenSans-Semibold, Open Sans" font-size="37.62" font-weight="500" letter-spacing="28.2150007" fill="#10A9A4">
+                        <tspan x="0" y="109">LONDONDERR</tspan>
+                        <tspan x="544.240906" y="109">Y</tspan>
+                    </text>
+                    <text id="DENTISTRY" font-family="OpenSans-ExtraboldItalic, Open Sans" font-size="109.44" font-style="italic" font-weight="600" letter-spacing="-3.07799978" fill="#F15323">
+                        <tspan x="2" y="210">DENTISTR</tspan>
+                        <tspan x="490.910377" y="210">Y</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
