@@ -1,7 +1,7 @@
 #header.full-header {
 
   $c-header: #fff;
-  $c-menu-trigger: #444444;
+  $c-menu-trigger: #444;
   $nav-font: $ff-open;
 
   width: 100%;
@@ -20,10 +20,10 @@
     margin-right: 0;
     border-right: none;
 
-    @include nav-color(#3C3C3C, 400);
-    @include nav-color(#F06223, 700, 1);
-    @include nav-color(#00659E, 700, 2);
-    @include nav-color(#10A9A4, 700, 3);
+    @include nav-color(#3c3c3c, 400);
+    @include nav-color(#f06223, 700, 1);
+    @include nav-color(#00659e, 700, 2);
+    @include nav-color(#10a9a4, 700, 3);
   }
 
   #primary-menu-trigger {

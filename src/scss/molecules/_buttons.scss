@@ -2,7 +2,7 @@ a.btn,
 button.btn {
   font-family: $ff-lato;
   font-weight: 700 !important;
-  background-color: #10A9A4;
+  background-color: #10a9a4;
   color: #fff;
   border-radius: 30px;
   border: solid 3px #fff;
@@ -13,21 +13,20 @@ button.btn {
 
   &:hover,
   &:focus {
-    background-color: darken(#4bcc73, 15%);
+    background-color: darken(#10a9a4, 15%);
     //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.46);
     transition: all 0.3s ease;
     text-decoration: none;
   }
 
   &.btn--style-two {
-    background-color: #08519f;
-    border: none;
+    background-color: #f06123;
     color: #fff;
     //box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.36);
 
     &:hover,
     &:focus {
-      background-color: darken(#08519f, 15%);
+      background-color: darken(#f06123, 15%);
       //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.46);
     }
   }

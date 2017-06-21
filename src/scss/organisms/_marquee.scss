@@ -51,7 +51,7 @@
     //}
 
     .slide__copy {
-      color: #1E5879;
+      color: #1e5879;
       font-style: italic;
       padding-top: 40px;
       line-height: 1;
@@ -68,8 +68,8 @@
       margin-bottom: 0;
       line-height: 1;
 
-      &:first-line {
-        color: #1D5575;
+      &::first-line {
+        color: #1d5575;
         font-weight: 900;
       }
 
@@ -82,7 +82,7 @@
     }
 
     .copy {
-      color: #332A46;
+      color: #332a46;
       font-weight: 400;
       margin-bottom: 25px;
       padding-right: 45px;
@@ -94,7 +94,7 @@
 
   .slide3 {
     .title--no-insure {
-      color: #1D5575;
+      color: #1d5575;
       margin-bottom: 5px;
       line-height: 1;
 
@@ -102,7 +102,7 @@
     }
 
     .title--sub {
-      color: #F05423;
+      color: #f05423;
       font-weight: 700;
       font-style: italic;
       line-height: 1;

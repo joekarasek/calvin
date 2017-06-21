@@ -1,6 +1,7 @@
 /// Call to Action Two to One Layout
 .cta {
-  background-color: #fff;
+  border-top: solid 4px #fff;
+  background-color: #00659f;
   background-position: center;
   z-index: 100;
   position: relative;
@@ -46,28 +47,31 @@
   }
 
   .new-patient {
-    text-align: left;
+    text-align: right;
     padding: 0 30px;
 
     .text {
-      color: #1a202a;
+      font-style: italic;
+      color: #fff;
       margin-bottom: 0;
       font-weight: 400;
+      font-size: 24px;
     }
 
     &-number {
-      color: #1a202a;
-      font-weight: 700;
+      color: #fff;
+      font-family: $ff-lato;
+      font-weight: 900;
+      font-style: normal;
       margin-bottom: 0;
       padding-top: 5px;
       padding-bottom: 10px;
       line-height: 1;
-      font-family: $ff-carme;
 
-      @include font-size(36px, 33px, 30px, 28px, 28px);
+      @include font-size(48px, 40px, 36px, 28px, 28px);
 
       a {
-        @include link-color(#1a202a);
+        @include link-color(#fff);
 
         &:hover {
           text-decoration: none;
@@ -91,8 +95,8 @@
     &--wrapper {
       padding: 5px 30px;
       margin-right: -1px;
-      border-right: 2px solid #1a202a;
-      text-align: right;
+      border-left: 2px solid #fff;
+      text-align: left;
 
       @media screen and (max-width: $width-md) {
         padding-bottom: 0;
@@ -106,23 +110,18 @@
   }
 
   .existing-patient {
-    color: #1a202a;
+    color: #fff;
     line-height: 1;
-    font-size: 16px;
+    font-size: 24px;
     margin-bottom: 0;
+    font-style: italic;
 
     @media (max-width: 992px) {
       text-align: center;
     }
 
     .phone-number--existing {
-      font-weight: 700;
-
-      @include link-color(#1a202a);
-
-      @media (max-width: 992px) {
-        font-size: 20px;
-      }
+      @include link-color(#fff);
 
       &:hover {
         text-decoration: none;
