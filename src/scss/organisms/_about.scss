@@ -2,37 +2,46 @@
   background-color: #fff;
 
   .heading {
+    background: #d9eaf4;
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
 
     &__main {
-      color: #2c2340;
-      font-weight: 900;
+      color: #1d5575;
+      font-weight: 700;
+      font-style: italic;
       margin-bottom: 0;
       line-height: 1;
+    }
+
+    &__byline {
+      color: #f06123;
+      font-weight: 700;
+      font-style: italic;
+      margin-bottom: 0;
+    }
+  }
+
+  &__video-slab {
+    background: linear-gradient(#d9eaf4 50%, #fff 50%);
+
+    &__video {
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      border: solid 15px #fff;
     }
   }
 
   //main slab
   &__doctor-slab {
-    padding-top: 30px;
-    background-color: #e4f3e9;
-
     @media (min-width: 768px) {
-      background-image: url('/assets/culberson-bio.jpg');
-      background-size: auto 100%;
+      background-image: url(/assets/bio.jpg);
+      background-size: cover;
+      background-position: right -100px top;
       background-repeat: no-repeat;
-      background-position: -230px 0;
-      padding-bottom: 60px;
-    }
-
-    @media (min-width: 992px) {
-      background-position: -140px 0;
-    }
-
-    @media (min-width: 1200px) {
-      background-position: 0 0;
+      padding-top: 30px;
     }
   }
 
@@ -53,17 +62,26 @@
     &__wrapper {
       @media (min-width: 768px) {
         display: flex;
-        justify-content: flex-end;
+        justify-content: flex-start;
       }
     }
 
     &__name {
-      color: #1a202a;
-      font-family: $ff-raleway;
-      font-weight: 900;
+      color: #1d5575;
+      font-weight: 700;
       font-style: italic;
-      margin-bottom: 0;
+      margin-bottom: 20px;
       line-height: 1.2;
+
+      @include font-size(44px, 40px, 36px, 36px, 26px);
+
+      small {
+        color: #1d5575;
+        font-family: $ff-open;
+        font-weight: 700;
+
+        @include font-size(40px, 37px, 32px, 32px, 24px);
+      }
     }
 
     &__byline {
@@ -73,6 +91,8 @@
 
     &__copy {
       color: #1c1836;
+      line-height: 1.4;
+      padding-bottom: 20px;
     }
 
     &__mobile-image img {
