@@ -29,13 +29,13 @@
 
         {% include 'organisms/about.twig' %}
 
-        {% include 'organisms/specials--grid.twig' %}
+        {% include 'organisms/specials--three-card.twig' %}
 
         {% include 'molecules/cta__two-to-one.twig' with {
             id: 'id="cta-two"',
             existingPatients: false,
             shadow: false,
-            classes: "cta--background-two"
+            classes: ""
         } %}
 
         {% include 'organisms/reviews.twig' %}
