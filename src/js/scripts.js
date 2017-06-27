@@ -27,7 +27,7 @@
     }
   });
   HelloWorldDevsTysonSteele.associationCarousel('.js-associations-carousel', {
-    items: 3,
+    items: 2,
     loop: true,
     autoplay: true,
     autoplaySpeed: 500,
@@ -40,18 +40,21 @@
     slideBy: 1,
     responsive: {
       768: {
-        items: 2
+        items: 3
       },
       992: {
-        items: 3
+        items: 4
+      },
+      1200: {
+        items: 5
       }
     }
   });
   HelloWorldDevsTysonSteele.pyramidCarousel('.js-team-carousel', {
     items: 2,
     navText: [
-      '<img src="assets/team-arrow-left.png">',
-      '<img src="assets/team-arrow-right.png">'
+      '<img src="assets/team-left-arrow.png">',
+      '<img src="assets/team-right-arrow.png">'
     ],
     responsive: {
       480: {
@@ -61,7 +64,7 @@
         items: 4
       }
     },
-    margin: 10
+    margin: 30
   });
   HelloWorldDevsTysonSteele.updateCopyright('.js-copyright-year');
 

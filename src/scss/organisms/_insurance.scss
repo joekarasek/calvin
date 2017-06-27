@@ -1,29 +1,27 @@
 #section-insurance {
 
-  $c-no-insurance: #08519f;
-  $c-sub-header: #1a202a;
-  $c-preventative: #105570;
-  $c-copy: #1a202a;
-  $c-mobile-bg: #e2f6fe;
+  $c-no-insurance: #1d5575;
+  $c-sub-header: #f05423;
+  $c-preventative: #303030;
+  $c-copy: #303030;
+  $c-mobile-bg: #fff;
 
   padding-top: 50px;
-  padding-bottom: 60px;
-  background-color: #e2f6fe;
-  background-image: url('/assets/membership-photo.jpg');
+  background-color: #fff;
   background-size: contain;
   background-repeat: no-repeat;
 
-  @media (min-width: 768px) {
-    background-position: -180px bottom;
-  }
-
-  @media (min-width: 992px) {
-    background-position: -30px bottom;
-  }
-
-  @media (min-width: 1200px) {
-    background-position: left bottom;
-  }
+  //@media (min-width: 768px) {
+  //  background-position: -180px bottom;
+  //}
+  //
+  //@media (min-width: 992px) {
+  //  background-position: -30px bottom;
+  //}
+  //
+  //@media (min-width: 1200px) {
+  //  background-position: left bottom;
+  //}
 
   @media (max-width: $width-sm - 1) {
     background-position: top center;
@@ -36,14 +34,14 @@
   }
 
   .title {
-    font-family: $ff-raleway;
+    font-family: $ff-open;
     font-weight: 900;
     font-style: italic;
     margin-bottom: 0;
     line-height: 1;
     color: $c-no-insurance;
 
-    @include font-size(60px, 57px, 48px, 48px, 32px);
+    @include font-size(60px, 57px, 68px, 58px, 44px);
   }
 
   .sub-title {
@@ -51,31 +49,31 @@
     color: $c-sub-header;
     margin-bottom: 0;
     display: inline-block;
-    font-family: $ff-dosis;
+    font-style: italic;
 
-    @include font-size(38px, 34px, 29px, 32px, 22px);
+    @include font-size(38px, 34px, 29px, 36px, 28px);
   }
 
-  .care-text {
+  .preventative-care {
     font-weight: 400;
-    line-height: 1;
+    line-height: 1.5;
     padding-top: 30px;
     color: $c-preventative;
 
     @include font-size(28px, 26px, 28px, 27px, 20px);
+
+    @media (min-width: 768px) {
+      text-align: right;
+    }
   }
 
-  .list-item {
+  .insurance__copy {
+    color: $c-copy;
     list-style: none;
+    margin-bottom: 0;
+    line-height: 1.2;
 
-    p {
-      color: $c-copy;
-      list-style: none;
-      margin-bottom: 0;
-      line-height: 1.2;
-
-      @include font-size(20px, 19px, 18px, 18px, 18px);
-    }
+    @include font-size(20px, 19px, 18px, 18px, 18px);
   }
 
   .btn {
@@ -92,6 +90,17 @@
     @media (max-width: $width-sm - 1) {
       margin-top: -20px;
       display: block;
+    }
+  }
+
+  .flex-wrapper {
+    @media (min-width: 768px) {
+      display: flex;
+      flex-direction: row;
+
+      .flex-item {
+        width: 50%;
+      }
     }
   }
 }
