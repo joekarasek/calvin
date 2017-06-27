@@ -1,5 +1,5 @@
 #section-reviews {
-  background-image: url('/assets/review-bkgd.jpg');
+  background-image: url('/assets/reviews-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -10,20 +10,11 @@
     padding-top: 0;
     text-align: center;
     margin-top: $spacing-md;
-    margin-bottom: 10px;
-    color: #fff;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.45);
-    font-family: $ff-raleway;
+    margin-bottom: 30px;
+    color: #0c344a;
     font-style: italic;
-    font-weight: 900;
-
-    &__byline {
-      color: #fff;
-      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.45);
-      font-family: $ff-dosis;
-      font-style: normal;
-      font-weight: 700;
-    }
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(230, 236, 255, 0.71);
   }
 
   .review-wrapper > div:last-child {
@@ -83,13 +74,17 @@
       font-family: $ff-lato;
       padding-top: 30px;
 
-      @media (min-width: 768) {
+      @media (min-width: 768px) {
         padding-top: 0;
         text-align: left;
       }
 
       @include font-size(32px, 28px, 26px, 24px, 20px);
     }
+  }
+
+  .bf-spn {
+    font-family: $ff-lato;
   }
   // Review Carousel Styling
   //.review-card {
