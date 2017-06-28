@@ -1,17 +1,10 @@
 .services__pyramid-grid {
   //override bootstrap grid gutters
-  .col-sm-6,
-  .col-md-3 {
+  .col-sm-4,
+  .col-md-4 {
     padding-left: 0;
     padding-right: 0;
     position: relative;
-
-    &:not(.service-card--double) {
-      @media screen and (max-width: $width-sm) {
-        width: 50%;
-        float: left;
-      }
-    }
   }
 
   img {
@@ -74,54 +67,36 @@
 
     &__title {
       display: block;
-      color: #fff;
-      text-transform: uppercase;
-      font-family: $ff-raleway;
-      font-weight: 900;
+      color: #1d5575;
+      font-weight: 700;
       margin-bottom: 0;
 
-      @include link-color(#fff);
-      @include font-size(16px, 15px, 19px, 17px, 14px);
+      @include link-color(#1d5575);
+      @include font-size(32px, 29px, 22px, 29px, 24px);
     }
 
     &__learn-more {
+      font-style: italic;
       display: block;
-      color: #fff;
+      color: #f06223;
+      font-weight: 600;
       line-height: 1;
       text-decoration: underline;
 
-      @include link-color(#fff);
+      @include link-color(#f06223);
       @include font-size(18px, 14px, 17px, 15px, 14px);
     }
 
     &__copy {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      position: absolute;
-      padding: 15px 10px;
-      bottom: 0;
-      width: 100%;
-      color: #fff;
-      text-decoration: underline;
-
-      img {
-        width: 30px;
-        height: 32px;
-      }
-    }
-
-    &:nth-child(2n) .service-card__copy {
-      background-color: rgba(28, 28, 96, 0.75);
-    }
-
-    &:nth-child(2n - 1) .service-card__copy {
-      background-color: rgba(0, 94, 121, 0.75);
+      text-align: left;
     }
   }
 
   @media screen and (min-width: 768px) {
+    .service-card {
+      padding-right: 20px;
+    }
+
     .service-card:hover {
       .service-card__image-link {
         @include hover-plus();

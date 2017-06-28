@@ -1,47 +1,63 @@
 <section id="section-services">
-    <div class="heading">
+
+    <div class="smile-slab">
+
+        <div class="heading">
+            <div class="container">
+                <h2 class="heading__title">Our Services</h2>
+                <h4 class="heading__byline">Learn more about our treatments and services.</h4>
+            </div>
+        </div>
+
         <div class="container">
-            <h2 class="heading__title">OUR SERVICES</h2>
-            <p class="heading__byline">Select an item in the grid below to learn more.</p>
+            <div class="row">
+                <div class="smile-slab__card col-sm-6 ">
+                    <h2 class="smile-slab__title">Smile Makeovers</h2>
+                    <p class="smile-slab__copy">Cosmetic dentistry is one of the most cost-effective ways to improve your appearance. A beautiful, bright, healthy smile will increase self-confidence and overall life satisfaction. Cosmetic dentistry includes things like tooth-colored restorations, dental implants, and crowns. We have many options, so please call us today!</p>
+                </div>
+            </div>
+        </div>
+        <div class="hidden-lg hidden-md hidden-sm slab-mobile-image">
+            <img src="assets/services/smile-makeovers.jpg" alt="Happy dental implant patient">
         </div>
     </div>
 
     <div class="implant-slab">
         <div class="container">
-            <div class="row">
-                <div class="implant-slab__card col-sm-7 col-sm-push-5">
-                    <h2 class="implant-slab__title">IMPLANT DENTISTRY</h2>
-                    <p class="implant-slab__copy">Dental implants are a great option for replacing missing teeth,
-                        improving chewing ability, eliminating bridges, and replacing dentures.</p>
-                    <p class="implant-slab__copy">Several implants may provide a base for a series of artificial teeth
-                        known as a fixed bridge. Implants can even be used to secure a full set of removable dentures
-                        for people who have no remaining natural teeth.</p>
-                    <a href="http://www.norfolkimplantdentist.com/" target="_blank" class="btn">Learn More</a>
+            <div class="flex-wrapper">
+                <div class="image">
+                    <img src="/assets/services/implants.jpg" alt="Happy implant patient">
+                </div>
+                <div class="copy">
+                    <h2 class="copy__title">3D Guided Dental Implants</h2>
+                    <p class="copy__text">Dental implants are a great option for replacing missing teeth, improving
+                        chewing ability, eliminating bridges, and replacing dentures.</p>
+                    <p class="copy__text">Several implants may provide a base for a series of artificial teeth known as
+                        a fixed bridge. Implants can even be used to secure a full set of removable dentures for people
+                        who have no remaining natural teeth.</p>
+                    <ul>
+                        <li>Precision implant placement with minimal surgery</li>
+                        <li>Shorter restorative time for the final crown when used with CEREC®</li>
+                        <li>Patients go to work the same day</li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div class="hidden-lg hidden-md hidden-sm slab-mobile-image">
-            <img src="assets/services/implant-dentistry-mobile.jpg" alt="Happy dental implant patient">
+            <p class="implant__additional-text">My implant was placed in less than an hour with no discomfort, no flapping of my gums, and no stitches. I
+                went to work immediately after the procedure with no pain! I would give Calvin Dental Associates a five
+                out of a five-star rating. They are top notch in my book!” —Debra DiMarco</p>
         </div>
     </div>
 
-    <div class="dentures-slab">
+    <div class="heading">
         <div class="container">
-            <div class="row">
-                <div class="dentures-slab__card col-sm-6">
-                    <h2 class="dentures-slab__title">COSMETIC DENTURES</h2>
-                    <p class="dentures-slab__copy">A well made denture is not only comfortable and functions properly; it also allows the wearer to smile with confidence, knowing that their smile is no different than it would be with natural teeth. Creating a cosmetic denture is really an art in the hands of a skilled dentist like Dr. Langan.</p>
-                    <a href="http://www.norfolkdenturesdentist.com/" target="_blank" class="btn">Learn More</a>
-                </div>
-            </div>
-        </div>
-        <div class="hidden-lg hidden-md hidden-sm slab-mobile-image">
-            <img src="assets/services/cosmetic-dentures-mobile.jpg" alt="Happy cosmetic dentures patient">
+            <h2 class="heading__title">More Services</h2>
+            <h5 class="heading__select-a-link">Select a link below to learn more.</h5>
         </div>
     </div>
 
-
-    {% include 'molecules/services__pyramid-grid.twig' %}
+    <div class="container">
+        {% include 'molecules/services__pyramid-grid.twig' %}
+    </div>
 
     {% include 'molecules/services__modals.twig' %}
 

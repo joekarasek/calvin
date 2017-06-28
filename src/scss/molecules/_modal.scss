@@ -52,10 +52,11 @@
 
   button.close {
     font-weight: 900;
-    font-size: 40px;
     position: relative;
     opacity: 1;
     margin-top: 0;
+
+    @include font-size(40px, 38px, 36px, 32px, 30px);
   }
 }
 
@@ -64,8 +65,7 @@
 }
 
 .modal-title {
-  font-style: italic;
-  font-weight: 900;
+  font-weight: 700;
   margin: 0;
   margin-bottom: 15px;
   line-height: 1;
