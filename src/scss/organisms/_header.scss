@@ -67,6 +67,7 @@
       a {
         text-align: right;
         margin-left: auto;
+        margin-right: auto;
         padding-right: 30px;
       }
 
@@ -78,8 +79,8 @@
     }
 
     #primary-menu-trigger {
-      right: auto;
-      left: 0;
+      right: 10px;
+      left: auto;
       color: #343b42;
     }
   }
