@@ -17,14 +17,10 @@
     items: 1,
     margin: 40,
     navText: [
-      '<i class="icon-chevron-left"></i>',
-      '<i class="icon-chevron-right"></i>'
+      '<img src="assets/team-left-arrow.png">',
+      '<img src="assets/team-right-arrow.png">'
     ],
-    responsive: {
-      768: {
-        items: 2
-      }
-    }
+    autoHeight: true
   });
   HelloWorldDevsTysonSteele.associationCarousel('.js-associations-carousel', {
     items: 2,
