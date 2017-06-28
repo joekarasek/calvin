@@ -32,13 +32,13 @@ button.btn {
   }
 
   &.btn--style-three {
-    background-color: #9ed5af;
-    color: #1a202a;
-    border-color: #1a202a;
+    background-color: rgba(255, 255, 255, 0);
+    color: #1e5879;
+    border-color: #1e5879;
 
     &:hover,
     &:focus {
-      background-color: darken(#9ed5af, 15%);
+      //background-color: darken(#9ed5af, 15%);
       //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.46);
     }
   }

@@ -65,7 +65,7 @@
   HelloWorldDevsTysonSteele.updateCopyright('.js-copyright-year');
 
   // ======= Google Maps =======
-  HelloWorldDevsTysonSteele.googleMap('#google-map5', '47.852427,-122.21895', '47.852427,-122.21895');
+  HelloWorldDevsTysonSteele.googleMap('#google-map5', '42.8516403,-71.3588032', '42.8516403,-71.3588032');
 
 
 }(jQuery, HelloWorldDevsTysonSteele));

@@ -46,6 +46,7 @@
 
     @media (min-width: 768px) {
       background-image: url('/assets/services/smile-makeovers.jpg');
+      background-repeat: no-repeat;
       background-size: cover;
       background-position: right -160px top;
 
@@ -130,9 +131,10 @@
     font-style: italic;
     padding-top: 30px;
     padding-bottom: 30px;
+    clear: both;
 
     @media (min-width: 768px) {
-      padding-top: 0;
+      padding-top: 10px;
     }
   }
 }

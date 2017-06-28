@@ -49,9 +49,8 @@
   }
 
   &__doctor {
-    color: #00595b;
-    font-weight: 900;
-    font-size: 28px;
+    color: #345a75;
+    font-weight: 700;
     line-height: 1;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -71,7 +70,7 @@
   }
 
   &__map-link {
-    color: #08519f;
+    color: #345a75;
     text-decoration: underline;
     font-size: 19px;
   }
@@ -85,13 +84,14 @@
 
   &__new-patient-number {
     display: block;
-    font-size: 44px;
-    font-weight: 700;
-    color: #1a202a;
+    font-size: 40px;
+    font-weight: 900;
+    color: #345a75;
+    font-family: $ff-lato;
     margin-bottom: 15px;
     line-height: 1;
 
-    @include font-size(38px, 36px, 32px, 36px, 32px);
+    @include font-size(38px, 38px, 36px, 36px, 32px);
 
     &:hover {
       color: #1a202a;
@@ -103,14 +103,15 @@
     color: #1a202a;
     margin-top: 15px;
     line-height: 1;
-    margin-bottom: 5px;
-    font-size: 20px;
+    margin-bottom: 25px;
+
+    @include font-size(20px, 20px, 20px, 18px, 16px);
   }
 
   &__existing-patient-number {
     color: #1a202a;
 
-    @include font-size(28px, 26px, 24px, 22px, 22px);
+    @include font-size(20px, 20px, 20px, 18px, 16px);
 
     &:hover {
       color: #1a202a;
@@ -141,10 +142,10 @@
     color: #1a202a;
     font-weight: 700;
     margin-bottom: 5px;
-    font-size: 21px;
+    font-size: 19px;
 
     @media (min-width: 768px) {
-      font-size: 24px;
+      font-size: 20px;
     }
   }
 
@@ -160,10 +161,9 @@
     }
 
     h5 {
-      font-weight: 900;
+      font-weight: 400;
       font-size: 28px;
-      color: #00595b;
-      text-transform: uppercase;
+      color: #345a75;
     }
 
     p {
