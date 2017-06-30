@@ -38,8 +38,8 @@
   &__doctor-slab {
     @media (min-width: 768px) {
       background-image: url(/assets/bio.jpg);
-      background-size: cover;
-      background-position: right -100px top;
+      background-size: contain;
+      background-position: right -100px bottom;
       background-repeat: no-repeat;
       padding-top: 30px;
     }

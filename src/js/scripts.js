@@ -48,6 +48,7 @@
   });
   HelloWorldDevsTysonSteele.pyramidCarousel('.js-team-carousel', {
     items: 2,
+    autoplay: false,
     navText: [
       '<img src="assets/team-left-arrow.png">',
       '<img src="assets/team-right-arrow.png">'

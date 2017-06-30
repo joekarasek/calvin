@@ -3,6 +3,7 @@
     {
       "doubleWide": false,
       "title": "Smile Whitening",
+      "titleMobil": "Whitening",
       "titleFull": "Smile-Whitening",
       "image": "whitening.jpg",
       "modalTarget": "whitening",

@@ -16,6 +16,7 @@
     display: block;
     text-align: center;
     position: relative;
+    padding: 0 10px;
 
     &__image-link {
       width: 100%;
@@ -26,10 +27,11 @@
       display: block;
       color: #1d5575;
       font-weight: 700;
-      margin-bottom: 0;
+      line-height: 1.1;
+      margin-bottom: 5px;
 
       @include link-color(#1d5575);
-      @include font-size(32px, 29px, 22px, 29px, 24px);
+      @include font-size(32px, 29px, 22px, 29px, 22px);
     }
 
     &__learn-more {
@@ -39,6 +41,7 @@
       font-weight: 600;
       line-height: 1;
       text-decoration: underline;
+      margin-bottom: 35px;
 
       @include link-color(#f06223);
       @include font-size(18px, 14px, 17px, 15px, 14px);

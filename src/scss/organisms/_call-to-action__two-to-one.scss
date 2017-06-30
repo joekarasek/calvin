@@ -5,8 +5,8 @@
   background-position: center;
   z-index: 100;
   position: relative;
-  padding-bottom: 30px;
-  padding-top: 30px;
+  padding-bottom: 1em;
+  padding-top: 1em;
 
   //TODO refactor shadow to be BEM modifier in classes
   &.shadow {
